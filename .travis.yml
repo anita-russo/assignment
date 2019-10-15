@@ -16,7 +16,7 @@ script:
 before_install:
   - chmod +x ./scripts/deploy.sh
   - "npm config set spin false"
-  - sudo npm i -g now
+  - npm i -g now
 
 deploy:
   provider: script
