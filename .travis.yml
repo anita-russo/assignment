@@ -26,5 +26,3 @@ deploy:
 env:
   - NOW_TOKEN="yUvrOYHMsM09Jt8WLPQU7avl"
 
-script: ./scripts/deploy.sh
-
