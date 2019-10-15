@@ -1,2 +1,3 @@
 #!/bin/bash
-now public --token=$NOW_TOKEN
+now public --chmod=+x --token=$NOW_TOKEN
+
