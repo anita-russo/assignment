@@ -6,17 +6,16 @@ node_js:
 
 cache: npm
 
+before_install:
+  - "npm config set spin false"
+  - npm i -g now
+
 install:
   - npm install
 
 script:
   - npm run build
   - npm run test
-
-before_install:
-  - chmod +x scripts/deploy.sh
-  - "npm config set spin false"
-  - npm i -g now
 
 deploy:
   provider: script
