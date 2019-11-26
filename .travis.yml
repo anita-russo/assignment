@@ -14,7 +14,7 @@ script:
   - npm run test
 
 before_install:
-  - chmod +x /scripts/deploy.sh
+  - chmod +x scripts/deploy.sh
   - "npm config set spin false"
   - npm i -g now
 
